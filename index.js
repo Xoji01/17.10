@@ -57,7 +57,7 @@ let total = 0
 for (let item of companies) {
     for (let q of item.expenses){
         total +=q}
-        console.table(item.name + total);
+        console.table(item.name +" расход", total);
     }
 
 

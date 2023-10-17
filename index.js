@@ -55,7 +55,6 @@ let companies = [
 // 2. Показать чистую прибыль каждой компании вычитав расходы и налоги
 let total = 0
 for (let item of companies) {
-   
     for (let q of item.expenses){
         total +=q}
         console.table(item.name + total);
